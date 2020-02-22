@@ -49,7 +49,7 @@ information received from the server to imitate an installation from GP and acqu
 	android.permission.CAMERA
 	android.permission.READ_PHONE_STATE
 	com.google.android.gms.permission.ACTIVITY_RECOGNITION
-## Sources: 447
+## Sources: 461
 	<android.view.View: int getWidth()>: 24
 	<org.apache.http.util.EntityUtils: java.lang.String getContentCharSet(org.apache.http.HttpEntity)>: 1
 	<org.json.JSONObject: double getDouble(java.lang.String)>: 3
@@ -94,9 +94,11 @@ information received from the server to imitate an installation from GP and acqu
 	<java.lang.Class: java.lang.Package getPackage()>: 2
 	<java.util.HashMap: java.lang.Object get(java.lang.Object)>: 40
 	<java.lang.Throwable: java.lang.Throwable getCause()>: 10
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 26
 	<android.net.LocalSocket: java.io.OutputStream getOutputStream()>: 1
 	<org.json.JSONObject: java.lang.Object get(java.lang.String)>: 1
 	<android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)>: 2
+	<android.database.Cursor: int getInt(int)>: 47
 	<android.os.Parcel: byte[] createByteArray()>: 2
 	<android.view.View: void getWindowVisibleDisplayFrame(android.graphics.Rect)>: 1
 	<java.security.Signature: java.security.Signature getInstance(java.lang.String)>: 3
@@ -115,6 +117,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.util.logging.LogRecord: java.util.logging.Level getLevel()>: 4
 	<android.net.wifi.WifiInfo: int getIpAddress()>: 2
 	<android.view.View: android.view.View getRootView()>: 4
+	<android.database.Cursor: java.lang.String getString(int)>: 58
 	<android.os.Handler: android.os.Looper getLooper()>: 6
 	<android.app.Activity: android.content.Intent getIntent()>: 8
 	<android.net.NetworkInfo: android.net.NetworkInfo$DetailedState getDetailedState()>: 1
@@ -145,6 +148,7 @@ information received from the server to imitate an installation from GP and acqu
 	<android.content.res.Resources: android.content.res.Resources getSystem()>: 7
 	<java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int)>: 4
 	<java.lang.reflect.Method: java.lang.String getName()>: 3
+	<java.io.File: java.io.File[] listFiles()>: 14
 	<java.io.DataInputStream: java.lang.String readUTF()>: 20
 	<android.content.Intent: int getIntExtra(java.lang.String,int)>: 7
 	<java.net.HttpURLConnection: java.io.InputStream getErrorStream()>: 5
@@ -226,6 +230,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.net.URI: java.lang.String getSchemeSpecificPart()>: 1
 	<java.lang.Class: java.lang.reflect.Constructor getDeclaredConstructor(java.lang.Class[])>: 6
 	<android.os.Bundle: boolean getBoolean(java.lang.String)>: 2
+	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 7
 	<java.lang.Thread: java.lang.StackTraceElement[] getStackTrace()>: 11
 	<java.lang.Long: long parseLong(java.lang.String)>: 29
 	<android.content.res.TypedArray: java.lang.String getString(int)>: 3
@@ -248,6 +253,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.lang.Boolean: boolean parseBoolean(java.lang.String)>: 10
 	<java.security.MessageDigest: byte[] digest(byte[])>: 4
 	<java.util.concurrent.atomic.AtomicLong: long get()>: 1
+	<java.io.FileInputStream: void <init>: 38
 	<java.util.ArrayList: java.lang.Object get(int)>: 29
 	<android.net.Uri: java.lang.String decode(java.lang.String)>: 1
 	<android.view.TextureView: android.graphics.SurfaceTexture getSurfaceTexture()>: 3
@@ -273,15 +279,19 @@ information received from the server to imitate an installation from GP and acqu
 	<java.nio.channels.SocketChannel: long write(java.nio.ByteBuffer[])>: 1
 	<android.os.StatFs: int getBlockCount()>: 8
 	<android.location.Location: long getTime()>: 6
+	<org.apache.http.HttpEntity: java.io.InputStream getContent()>: 20
 	<java.util.Locale: java.lang.String getCountry()>: 10
+	<android.database.Cursor: long getLong(int)>: 17
 	<android.widget.TextView: float getTextSize()>: 1
 	<java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>: 1
 	<android.view.View: int getTop()>: 6
 	<android.view.ViewGroup: android.view.View getChildAt(int)>: 16
+	<java.io.File: boolean delete()>: 101
 	<java.text.NumberFormat: java.lang.Number parse(java.lang.String)>: 1
 	<java.lang.Character: int getType(int)>: 2
 	<org.apache.http.conn.ssl.SSLSocketFactory: org.apache.http.conn.ssl.SSLSocketFactory getSocketFactory()>: 3
 	<java.net.InetAddress: byte[] getAddress()>: 17
+	<java.io.File: void <init>: 136
 	<java.io.StringWriter: java.lang.StringBuffer getBuffer()>: 1
 	<android.app.Activity: java.lang.String getLocalClassName()>: 7
 	<java.net.InetSocketAddress: java.net.InetAddress getAddress()>: 3
@@ -304,6 +314,7 @@ information received from the server to imitate an installation from GP and acqu
 	<android.view.ViewConfiguration: int getPressedStateDuration()>: 1
 	<android.view.MotionEvent: int getActionMasked()>: 3
 	<android.os.StatFs: int getBlockSize()>: 10
+	<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>: 3
 	<android.os.StatFs: int getAvailableBlocks()>: 7
 	<java.lang.String: byte[] getBytes()>: 62
 	<java.io.File: java.lang.String getPath()>: 21
@@ -378,6 +389,7 @@ information received from the server to imitate an installation from GP and acqu
 	<javax.crypto.Cipher: byte[] doFinal(byte[])>: 7
 	<java.lang.Class: java.lang.reflect.Method getDeclaredMethod(java.lang.String,java.lang.Class[])>: 11
 	<android.os.Environment: java.io.File getExternalStorageDirectory()>: 15
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 37
 	<java.security.KeyStore: void load(java.io.InputStream,char[])>: 2
 	<android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>: 1
 	<android.view.View: float getAlpha()>: 2
@@ -427,12 +439,14 @@ information received from the server to imitate an installation from GP and acqu
 	<android.media.MediaMetadataRetriever: android.graphics.Bitmap getFrameAtTime(long,int)>: 1
 	<java.util.concurrent.atomic.AtomicInteger: int getAndIncrement()>: 6
 	<android.view.View: boolean getGlobalVisibleRect(android.graphics.Rect,android.graphics.Point)>: 3
+	<android.content.Context: java.io.FileInputStream openFileInput(java.lang.String)>: 3
 	<java.net.InetAddress: java.net.InetAddress getByAddress(byte[])>: 12
 	<android.content.res.Resources: java.lang.String getString(int)>: 2
 	<android.os.Bundle: android.os.Bundle getBundle(java.lang.String)>: 17
 	<android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>: 13
 	<java.net.URL: int getPort()>: 3
 	<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>: 9
+	<android.content.Context: java.lang.Object getSystemService(java.lang.String)>: 131
 	<android.content.Intent: java.util.Set getCategories()>: 2
 	<java.net.CookieHandler: java.net.CookieHandler getDefault()>: 1
 	<android.os.Environment: java.lang.String getExternalStorageState()>: 11
@@ -497,7 +511,7 @@ information received from the server to imitate an installation from GP and acqu
 	<android.net.NetworkInfo: java.lang.String getTypeName()>: 5
 	<java.security.Signature: byte[] sign()>: 1
 	<java.text.DateFormat: java.util.Date parse(java.lang.String)>: 1
-## Sinks: 345
+## Sinks: 369
 	<android.content.Intent: android.content.Intent setPackage(java.lang.String)>: 15
 	<android.location.Criteria: void setBearingRequired(boolean)>: 1
 	<org.apache.http.params.HttpConnectionParams: void setSoTimeout(org.apache.http.params.HttpParams,int)>: 20
@@ -547,6 +561,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.util.concurrent.ThreadPoolExecutor: void setRejectedExecutionHandler(java.util.concurrent.RejectedExecutionHandler)>: 1
 	<android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>: 1
 	<android.support.v4.content.LocalBroadcastManager: boolean sendBroadcast(android.content.Intent)>: 2
+	<java.net.HttpURLConnection: void connect()>: 5
 	<android.net.TrafficStats: void setThreadStatsTag(int)>: 3
 	<android.widget.TextView: void setText(java.lang.CharSequence)>: 29
 	<android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>: 9
@@ -557,11 +572,13 @@ information received from the server to imitate an installation from GP and acqu
 	<java.util.zip.ZipEntry: void setSize(long)>: 1
 	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>: 1
 	<java.io.PrintStream: void println(java.lang.Object)>: 12
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 26
 	<android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)>: 6
 	<android.widget.TextView: void setTextAppearance(android.content.Context,int)>: 1
 	<android.webkit.WebSettings: void setMediaPlaybackRequiresUserGesture(boolean)>: 2
 	<android.graphics.drawable.GradientDrawable: void setStroke(int,int)>: 1
 	<android.media.MediaPlayer: void setOnInfoListener(android.media.MediaPlayer$OnInfoListener)>: 3
+	<android.content.SharedPreferences$Editor: boolean commit()>: 60
 	<android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>: 2
 	<android.content.ContentValues: void put(java.lang.String,java.lang.Long)>: 19
 	<org.apache.http.conn.scheme.SchemeRegistry: org.apache.http.conn.scheme.Scheme register(org.apache.http.conn.scheme.Scheme)>: 10
@@ -577,12 +594,16 @@ information received from the server to imitate an installation from GP and acqu
 	<java.lang.StringBuffer: void setLength(int)>: 5
 	<android.widget.TextView: void setEllipsize(android.text.TextUtils$TruncateAt)>: 4
 	<java.io.File: boolean setLastModified(long)>: 2
+	<java.io.BufferedWriter: void write(java.lang.String)>: 2
 	<android.view.View: void setBackgroundColor(int)>: 5
 	<android.database.sqlite.SQLiteDatabase: long replace(java.lang.String,java.lang.String,android.content.ContentValues)>: 5
 	<android.os.Parcel: void setDataPosition(int)>: 2
 	<java.io.FileOutputStream: void write(byte[],int,int)>: 6
+	<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>: 4
 	<java.math.BigDecimal: java.math.BigDecimal setScale(int,int)>: 2
+	<android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>: 7
 	<android.graphics.drawable.BitmapDrawable: void setTargetDensity(int)>: 2
+	<java.io.OutputStreamWriter: void <init>: 11
 	<android.util.Log: int i(java.lang.String,java.lang.String)>: 69
 	<android.view.View: void setBackgroundDrawable(android.graphics.drawable.Drawable)>: 1
 	<java.util.HashSet: boolean add(java.lang.Object)>: 30
@@ -597,6 +618,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.text.NumberFormat: void setGroupingUsed(boolean)>: 1
 	<android.view.Window: void setType(int)>: 2
 	<android.app.Activity: void setContentView(android.view.View,android.view.ViewGroup$LayoutParams)>: 1
+	<java.net.URL: void <init>: 40
 	<android.widget.VideoView: void setVideoPath(java.lang.String)>: 1
 	<org.apache.http.impl.cookie.DateUtils: java.util.Date parseDate(java.lang.String)>: 3
 	<android.webkit.WebSettings: void setAllowContentAccess(boolean)>: 1
@@ -609,6 +631,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.util.logging.Logger: void setUseParentHandlers(boolean)>: 1
 	<android.os.Bundle: void putBoolean(java.lang.String,boolean)>: 11
 	<android.location.Criteria: void setCostAllowed(boolean)>: 1
+	<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>: 25
 	<android.util.Log: int wtf(java.lang.String,java.lang.String,java.lang.Throwable)>: 2
 	<android.content.ContextWrapper: void startActivity(android.content.Intent)>: 6
 	<android.os.Bundle: void writeToParcel(android.os.Parcel,int)>: 7
@@ -619,6 +642,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.io.Writer: void write(java.lang.String)>: 44
 	<android.webkit.WebSettings: void setUserAgentString(java.lang.String)>: 2
 	<java.lang.reflect.Field: void set(java.lang.Object,java.lang.Object)>: 4
+	<java.lang.Class: java.lang.Class forName(java.lang.String)>: 43
 	<org.apache.http.client.params.HttpClientParams: void setCookiePolicy(org.apache.http.params.HttpParams,java.lang.String)>: 2
 	<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>: 1
 	<java.lang.Thread: void setName(java.lang.String)>: 6
@@ -639,6 +663,7 @@ information received from the server to imitate an installation from GP and acqu
 	<android.widget.VideoView: void setMediaController(android.widget.MediaController)>: 1
 	<android.media.MediaMetadataRetriever: void setDataSource(java.lang.String)>: 1
 	<android.view.View: void draw(android.graphics.Canvas)>: 1
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 37
 	<android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>: 3
 	<android.widget.ImageView: void setImageResource(int)>: 4
 	<org.apache.http.conn.params.ConnManagerParams: void setMaxConnectionsPerRoute(org.apache.http.params.HttpParams,org.apache.http.conn.params.ConnPerRoute)>: 1
@@ -655,6 +680,8 @@ information received from the server to imitate an installation from GP and acqu
 	<java.lang.Throwable: void setStackTrace(java.lang.StackTraceElement[])>: 1
 	<android.location.Criteria: void setSpeedRequired(boolean)>: 1
 	<android.location.Criteria: void setAltitudeRequired(boolean)>: 1
+	<java.io.FileOutputStream: void <init>: 38
+	<java.io.FileOutputStream: void write(byte[])>: 7
 	<android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>: 26
 	<java.util.ArrayList: java.lang.Object set(int,java.lang.Object)>: 8
 	<org.apache.http.params.HttpProtocolParams: void setUserAgent(org.apache.http.params.HttpParams,java.lang.String)>: 5
@@ -681,12 +708,14 @@ information received from the server to imitate an installation from GP and acqu
 	<android.webkit.WebSettings: void setJavaScriptCanOpenWindowsAutomatically(boolean)>: 1
 	<java.lang.Integer: int parseInt(java.lang.String,int)>: 2
 	<android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>: 7
+	<android.webkit.WebView: void addJavascriptInterface(java.lang.Object,java.lang.String)>: 2
 	<android.view.View: void setTag(java.lang.Object)>: 2
 	<android.graphics.RectF: void set(float,float,float,float)>: 1
 	<android.widget.LinearLayout: void setGravity(int)>: 5
 	<android.widget.Toast: void setText(java.lang.CharSequence)>: 1
 	<java.io.File: boolean setExecutable(boolean,boolean)>: 1
 	<android.graphics.Paint: android.graphics.Shader setShader(android.graphics.Shader)>: 2
+	<java.io.DataOutputStream: void write(byte[])>: 12
 	<android.graphics.drawable.GradientDrawable: void setColor(int)>: 1
 	<android.webkit.WebSettings: void setDomStorageEnabled(boolean)>: 1
 	<android.view.Window: void setBackgroundDrawableResource(int)>: 1
@@ -709,7 +738,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.util.zip.Deflater: void setInput(byte[])>: 1
 	<android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>: 3
 	<org.apache.http.params.HttpConnectionParams: void setSocketBufferSize(org.apache.http.params.HttpParams,int)>: 1
-	<android.util.Log: int e(java.lang.String,java.lang.String)>: 135
+	<android.util.Log: int e(java.lang.String,java.lang.String)>: 136
 	<android.widget.PopupWindow: void setOutsideTouchable(boolean)>: 2
 	<android.graphics.Point: void set(int,int)>: 1
 	<java.util.TreeSet: boolean add(java.lang.Object)>: 7
@@ -759,6 +788,7 @@ information received from the server to imitate an installation from GP and acqu
 	<android.webkit.WebSettings: void setDatabasePath(java.lang.String)>: 1
 	<android.webkit.WebSettings: void setUseWideViewPort(boolean)>: 3
 	<android.app.Activity: void startActivityForResult(android.content.Intent,int)>: 2
+	<java.util.concurrent.ThreadPoolExecutor: java.util.concurrent.Future submit(java.lang.Runnable)>: 3
 	<java.lang.Short: short parseShort(java.lang.String)>: 1
 	<android.content.Intent: android.content.Intent setData(android.net.Uri)>: 16
 	<org.apache.http.client.params.HttpClientParams: void setRedirecting(org.apache.http.params.HttpParams,boolean)>: 1
@@ -773,6 +803,8 @@ information received from the server to imitate an installation from GP and acqu
 	<java.net.DatagramSocket: void bind(java.net.SocketAddress)>: 2
 	<android.os.Handler: boolean sendEmptyMessage(int)>: 8
 	<android.content.MutableContextWrapper: void setBaseContext(android.content.Context)>: 1
+	<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>: 6
+	<android.content.Context: android.content.ComponentName startService(android.content.Intent)>: 6
 	<android.app.Activity: void startActivity(android.content.Intent)>: 1
 	<android.app.ActivityManager: java.util.List getRunningServices(int)>: 2
 	<android.content.Intent: android.content.Intent setDataAndType(android.net.Uri,java.lang.String)>: 6
@@ -784,13 +816,16 @@ information received from the server to imitate an installation from GP and acqu
 	<org.apache.http.client.methods.HttpEntityEnclosingRequestBase: void setEntity(org.apache.http.HttpEntity)>: 3
 	<java.io.Writer: java.io.Writer append(char)>: 2
 	<android.widget.TextView: void setSingleLine(boolean)>: 1
+	<java.io.DataOutputStream: void writeBytes(java.lang.String)>: 14
 	<java.util.logging.LogManager: boolean addLogger(java.util.logging.Logger)>: 2
 	<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>: 202
+	<android.content.Context: void startActivity(android.content.Intent)>: 52
 	<android.content.ContentValues: void put(java.lang.String,java.lang.Double)>: 2
 	<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>: 5
 	<android.media.MediaPlayer: void setOnBufferingUpdateListener(android.media.MediaPlayer$OnBufferingUpdateListener)>: 2
 	<android.util.Log: int w(java.lang.String,java.lang.Throwable)>: 1
 	<android.media.MediaPlayer: void setSurface(android.view.Surface)>: 3
+	<java.net.URLConnection: java.io.InputStream getInputStream()>: 2
 	<java.text.DateFormat: void setTimeZone(java.util.TimeZone)>: 2
 	<java.util.logging.Logger: void log(java.util.logging.Level,java.lang.String,java.lang.Throwable)>: 11
 	<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>: 2
@@ -815,11 +850,13 @@ information received from the server to imitate an installation from GP and acqu
 	<java.io.ObjectOutputStream: void writeObject(java.lang.Object)>: 4
 	<android.graphics.Matrix: void setScale(float,float)>: 2
 	<android.widget.ImageView: void setAlpha(int)>: 2
+	<java.io.DataOutputStream: void flush()>: 23
 	<android.widget.VideoView: void setOnCompletionListener(android.media.MediaPlayer$OnCompletionListener)>: 1
 	<android.net.http.AndroidHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>: 1
 	<android.view.View: void setVisibility(int)>: 22
 	<android.widget.ListView: void setSelectionFromTop(int,int)>: 1
 	<android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)>: 3
+	<java.io.File: boolean delete()>: 101
 	<java.text.NumberFormat: java.lang.Number parse(java.lang.String)>: 1
 	<java.lang.StringBuilder: void setLength(int)>: 19
 	<android.widget.ImageView: void setVisibility(int)>: 12
@@ -836,6 +873,7 @@ information received from the server to imitate an installation from GP and acqu
 	<java.text.DateFormat: java.util.Date parse(java.lang.String)>: 1
 	<android.widget.TextView: void setPadding(int,int,int,int)>: 4
 	<android.os.Handler: boolean sendMessageDelayed(android.os.Message,long)>: 2
+	<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>: 12
 	<java.lang.Thread: void setDaemon(boolean)>: 2
 	<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>: 1
 	<javax.net.ssl.HttpsURLConnection: void setDefaultSSLSocketFactory(javax.net.ssl.SSLSocketFactory)>: 1
