@@ -180,7 +180,8 @@
         "pathConstraints": true
       },
       "ID": 1,
-      "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and saved into data base. "
+      "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and saved into data base. ",
+      "isNegative": false
     },
     {
       "source": {
@@ -367,7 +368,8 @@
         "pathConstraints": true
       },
       "ID": 2,
-      "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and updated in the data base. "
+      "description": "This malicious ICC flow crosses one activity and two services. It starts by reading advertisement information from data base into a JSONObject, when the user performs a click, new advertisements will be downloaded and updated in the data base. ",
+      "isNegative": false
     }
   ]
 }
